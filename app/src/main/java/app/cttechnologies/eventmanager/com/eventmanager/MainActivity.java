@@ -100,11 +100,14 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_newevent) {
-            // Handle the camera action
+            tabLayout.setScrollPosition(0,0f,true);
+            viewPager.setCurrentItem(0);
         } else if (id == R.id.nav_eventlist) {
-
+            tabLayout.setScrollPosition(1,0f,true);
+            viewPager.setCurrentItem(1);
         } else if (id == R.id.nav_contactus) {
-
+            tabLayout.setScrollPosition(2,0f,true);
+            viewPager.setCurrentItem(2);
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
