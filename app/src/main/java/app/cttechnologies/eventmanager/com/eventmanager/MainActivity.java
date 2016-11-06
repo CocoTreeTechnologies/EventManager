@@ -56,9 +56,9 @@ public class MainActivity extends AppCompatActivity
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new NewEventFragment(), "New Event");
-        adapter.addFragment(new EventListFragment(), "Event List");
-        adapter.addFragment(new ContactUsFragment(), "Contact US");
+        adapter.addFragment(new NewEventFragment(), "Upcoming");
+        adapter.addFragment(new EventListFragment(), "Events");
+        adapter.addFragment(new ContactUsFragment(), "Contact Us");
         viewPager.setAdapter(adapter);
     }
     @Override

@@ -4,12 +4,12 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_newevent"
-            android:icon="@drawable/ic_menu_newevent"
-            android:title="New Event" />
+            android:icon="@drawable/ic_menu_eventlist"
+            android:title="Upcoming Events" />
         <item
             android:id="@+id/nav_eventlist"
             android:icon="@drawable/ic_menu_eventlist"
-            android:title="List Events" />
+            android:title="Events" />
         <item
             android:id="@+id/nav_contactus"
             android:icon="@drawable/ic_menu_contactus"
